@@ -1,7 +1,5 @@
 <?php
 
-
-
 ?>
 <!DOCTYPE HTML>
 
@@ -12,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script type="text/javascript" src ="js/index.js"></script>
 	</head>
 	<body>
 
@@ -25,9 +24,9 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="ellaSriLanka.php">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="note.html">Note</a></li>
+					<li><a href="#one">Articles</a></li>
+					<li><a href="#three">Top Sites</a></li>
+					<li><a href="ellaSriLanka.php">Hotels</a></li>
 					<li><a href="ellaSriLanka.php">Hotel</a></li>
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
