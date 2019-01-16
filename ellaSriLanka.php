@@ -148,8 +148,6 @@
     <?php
             $comment = $name = $email = $website = "";
             $commentError = $nameError = $emailError = $websiteError = "";
-
-
                 /*if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if (empty($_POST["comment"])) {
                         $commentError = "Please add your comment";
@@ -222,6 +220,31 @@
 
             ?>
 <!-- Two -->
+<section id="four" class="wrapper style2">
+    <div class="inner">
+        <div class="box">
+            <div class="content">
+                <h1 style="alignment: center"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
+                <h1>Comments</h1>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                    <textarea rows="4" cols="50" name ="comment"></textarea>
+                    <span class="error" style="color: red">* <?php echo $commentError;?></span>
+                    <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
+                    <input type="text" id="text1" name ="name">
+                    <span class="error" style="color: red">* <?php echo $nameError;?></span>
+                    <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
+                    <input type="text" id="email" name ="email">
+                    <span class="error" style="color: red">* <?php echo $emailError;?></span>
+                    <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
+                    <input type="text" id="website" name ="website">
+                    <input style="background-color: #002a80; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="SUBMIT COMMENT"/>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</section>
 <section id="four" class="wrapper style2">
     <div class="inner">
         <div class="box">
