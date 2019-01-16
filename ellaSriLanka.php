@@ -15,18 +15,18 @@
 
 <!-- Header -->
 <header id="header">
-    <div class="logo"><a href="index.html">Powered <span>By Zone x 24</span></a></div>
+    <div class="logo"><a href="index.php">Powered <span>By Zone x 24</span></a></div>
     <a href="#menu">Menu</a>
 </header>
 
 <!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="ellaSriLanka.html">Generic</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="ellaSriLanka.php">Generic</a></li>
         <li><a href="elements.html">Elements</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="ellaSriLanka.html">Generic</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="ellaSriLanka.php">Generic</a></li>
         <li><a href="elements.html">Elements</a></li>
     </ul>
 </nav>
@@ -145,6 +145,8 @@
         </div>
     </div>
 </section>
+
+
     <?php
             $comment = $name = $email = $website = "";
             $commentError = $nameError = $emailError = $websiteError = "";
@@ -208,47 +210,48 @@
 
                 }
 
-            function test_data($data) {
+            function test_data($data)
+            {
                 $data = trim($data);
                 $data = stripslashes($data);
                 $data = htmlspecialchars($data);
                 return $data;
             }
-
-
-
-
             ?>
-<!-- Two -->
+
+    <?php
+        include_once('database/db.php');
+        $sql = "SELECT * FROM comment_ella_srilanka where id = '25'";
+        $query = mysqli_query($con, $sql);
+        if($query) {
+
+            $row = mysqli_fetch_row($query);
+            $dbcomment = $row[1];
+            $dbname = $row[2];
+            $dbemail = $row[3];
+            $dbwebsite = $row[4];
+            $dbdatetime = $row[5];
+            echo $dbcomment;
+            echo $dbname ;
+            echo $dbemail;
+            echo $dbdatetime;
+        }
+        else {
+            echo "<b><i>Incorrect credentials</i><b>";
+        }
+        ?>
+
 <section id="four" class="wrapper style2">
     <div class="inner">
         <div class="box">
             <div class="content">
-                <h1 style="alignment: center"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
-                <h1>Comments</h1>
-                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-                    <textarea rows="4" cols="50" name ="comment"></textarea>
-                    <span class="error" style="color: red">* <?php echo $commentError;?></span>
-                    <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
-                    <input type="text" id="text1" name ="name">
-                    <span class="error" style="color: red">* <?php echo $nameError;?></span>
-                    <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
-                    <input type="text" id="email" name ="email">
-                    <span class="error" style="color: red">* <?php echo $emailError;?></span>
-                    <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
-                    <input type="text" id="website" name ="website">
-                    <input style="background-color: #002a80; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="SUBMIT COMMENT"/>
-                </form>
 
-            </div>
-
-        </div>
-    </div>
-</section>
-<section id="four" class="wrapper style2">
-    <div class="inner">
-        <div class="box">
-            <div class="content">
+                <div class ="content123">
+                    <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>
+                    <h5 style="alignment: right; color: #002a80"><?php echo $dbname;?></h5>
+                    <p style="color: #0b0b0b"><?php echo $dbcomment;?></p>
+                    <input style="margin-top: 0px; margin-bottom: 15px" type ="button" id = "button2" value="Reply"/>
+                </div>
                 <h1 style="alignment: center"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
                 <h1>Comments</h1>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
@@ -298,7 +301,7 @@
             </section>
         </div>
         <div class="copyright">
-            &copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">pasan Kamburugamuwa</a>.
+            &copy; Alright Reserved.<a href="login.php">Login<a/> A Zone x 24 creation</a>.
         </div>
     </div>
 </footer>
