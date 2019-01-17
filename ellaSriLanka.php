@@ -205,11 +205,8 @@
                                 echo "Error: " . $sql . "<br>" . $con->error;
                             }
                         }
-
                     }
-
                 }
-
             function test_data($data)
             {
                 $data = trim($data);
@@ -221,7 +218,7 @@
 
     <?php
         include_once('database/db.php');
-        $sql = "SELECT * FROM comment_ella_srilanka where id = '25'";
+        $sql = "SELECT * FROM comment_ella_srilanka where id = '87'";
         $query = mysqli_query($con, $sql);
         if($query) {
 
@@ -246,13 +243,22 @@
         <div class="box">
             <div class="content">
 
-                <div class ="content123">
+                <div class ="container-fluid">
                     <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>
-                    <h5 style="alignment: right; color: #002a80"><?php echo $dbname;?></h5>
-                    <p style="color: #0b0b0b"><?php echo $dbcomment;?></p>
-                    <input style="margin-top: 0px; margin-bottom: 15px" type ="button" id = "button2" value="Reply"/>
+                    <div id ="id123" style="display: inline">
+                        <p style="float: left; color: blue; margin-left:20px;"><?php echo $dbname;?></p>
+                        <P style ="color:blue; float: right; margin-right: 80px;"><?php echo $dbdatetime;?></P>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div >
+                    <p id ="idasd" style="color: #0b0b0b; margin-right: 5px;">
+                           <?php echo $dbcomment;?>
+                    </p>
+                    </div>
+                        <input style=" margin-top:-4px; margin-bottom: 15px; margin-right:40px; float:right;" type ="button" id = "button2" value="Reply"/>
                 </div>
-                <h1 style="alignment: center"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
+                <h1 style="alignment: center; margin-top: 100px;"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
                 <h1>Comments</h1>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                     <textarea rows="4" cols="50" name ="comment"></textarea>
