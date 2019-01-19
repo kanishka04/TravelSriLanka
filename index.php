@@ -27,7 +27,6 @@
 					<li><a href="#one">Articles</a></li>
 					<li><a href="#three">Top Sights</a></li>
 					<li><a href="errorPage.html">Hotels</a></li>
-					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
 
@@ -160,7 +159,7 @@
 									</header>
 									<p style="color:black;">Framed by soaring highlands on its northern boundary, the Uda Walawe National Park is one of the world's best places to see wild elephants. Largely comprised of grasslands and bush forest, it's also one of the best national parks in Sri Lanka for game spotting.</p>
 									<footer class="align-center">
-										<a href="#" class="button alt">View Article</a>
+										<a href="udawalaweSrilanka.html" class="button alt">View Article</a>
 									 </footer>
 								</div>
 							</div>
@@ -177,7 +176,7 @@
 									</header>
 									<p style="color:black;">Anuradhapura is one of the ancient cities in Sri Lanka, well known for its ruins depicting early Sri Lankan civilization. It is very famous among Buddhists pilgrims.Anuradhapura was earlier the capital of the Island (in ancient times) and most of the Kings who ruled Sri Lanka resided in this vast city.</p>
 									<footer class="align-center">
-										<a href="#" class="button alt">View Article</a>
+										<a href="Anuradhapura.html" class="button alt">View Article</a>
 									</footer>
 								</div>
 							</div>
@@ -211,7 +210,7 @@
 					<div class="gallery">
 						<div>
 							<div class="image fit">
-								<a href="#"><img src="images/kandy2.jpg" alt="" /></a>
+								<img src="images/kandy2.jpg" alt="" />
 							</div>
 							<div class="content">
 									<header class="align-center">
@@ -222,7 +221,7 @@
 						</div>
 						<div>
 							<div class="image fit">
-								<a href="#"><img src="images/miriisa.jpg" alt="" /></a>
+								<img src="images/miriisa.jpg" alt="" />
 							</div>
 							<div class="content">
 								<header class="align-center">
@@ -233,7 +232,7 @@
 						</div>
 						<div>
 							<div class="image fit">
-								<a href="#"><img src="images/nilaweli.jpg" alt="" /></a>
+								<img src="images/nilaweli.jpg" alt="" />
 
 							</div>
 							<div class="content">
@@ -245,7 +244,7 @@
 						</div>
 						<div>
 							<div class="image fit">
-								<a href="#"><img src="images/haggala.jpg" alt="" /></a>
+								<img src="images/haggala.jpg" alt="" />
 							</div>
 							<div class="content">
 								<header class="align-center">
