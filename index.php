@@ -26,8 +26,7 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="#one">Articles</a></li>
 					<li><a href="#three">Top Sights</a></li>
-					<li><a href="ellaSriLanka.php">Hotels</a></li>
-					<li><a href="ellaSriLanka.php">Hotel</a></li>
+					<li><a href="errorPage.html">Hotels</a></li>
 					<li><a href="elements.html">Elements</a></li>
 				</ul>
 			</nav>
