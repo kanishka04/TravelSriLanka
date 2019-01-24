@@ -141,7 +141,7 @@
 
 									<p style="color:black;">Galle is a city on the southwest coast of Sri Lanka. It’s known for Galle Fort, the fortified old city founded by Portuguese colonists in the 16th century. Stone sea walls, expanded by the Dutch, encircle car-free streets with architecture reflecting Portuguese, Dutch and British rule.</p>
 									<footer class="align-center">
-										<a href="galleSriLanka.html" class="button alt">View Article</a>
+										<a href="galleSriLanka.php" class="button alt">View Article</a>
 									</footer>
 								</div>
 							</div>
@@ -159,7 +159,7 @@
 									</header>
 									<p style="color:black;">Framed by soaring highlands on its northern boundary, the Uda Walawe National Park is one of the world's best places to see wild elephants. Largely comprised of grasslands and bush forest, it's also one of the best national parks in Sri Lanka for game spotting.</p>
 									<footer class="align-center">
-										<a href="udawalaweSrilanka.html" class="button alt">View Article</a>
+										<a href="udawalaweSrilanka.php" class="button alt">View Article</a>
 									 </footer>
 								</div>
 							</div>
@@ -171,12 +171,12 @@
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>maecenas sapien feugiat ex purus</p>
-										<h2>Anuradapura</h2>
+										<p>famous for its well-preserved ruins of an ancient civilization</p>
+										<h2>Anuradhapura</h2>
 									</header>
 									<p style="color:black;">Anuradhapura is one of the ancient cities in Sri Lanka, well known for its ruins depicting early Sri Lankan civilization. It is very famous among Buddhists pilgrims.Anuradhapura was earlier the capital of the Island (in ancient times) and most of the Kings who ruled Sri Lanka resided in this vast city.</p>
 									<footer class="align-center">
-										<a href="Anuradhapura.html" class="button alt">View Article</a>
+										<a href="Anuradhapura.php" class="button alt">View Article</a>
 									</footer>
 								</div>
 							</div>
@@ -266,7 +266,7 @@
 							<p>Sri Lanka (formerly Ceylon) is an island nation south of India in the Indian Ocean. Its diverse landscapes range from rainforest and arid plains to highlands and sandy beaches. It’s famed for its ancient Buddhist ruins, including the 5th-century citadel Sigiriya, with its palace and frescoes. The city of Anuradhapura, Sri Lanka's ancient capital, has many ruins dating back more than 2,000 years.</p>
 						</section>
 						<section>
-							<h4>Sem turpis amet semper</h4>
+							<h4>Content</h4>
 							<ul class="alt">
 								<li><a href="#">About us</a></li>
 								<li><a href="#">Home</a></li>

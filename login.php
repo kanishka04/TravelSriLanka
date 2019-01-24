@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Pasan Kamburugamuwa BLOG</title>
+    <title>Welcome to Travel Sri Lanka</title>
     <link rel = "stylesheet" href = "login.css" media = "all" />
     <script language ="javascript" type ="text/javascript" src = "login.js"></script>
 </head>
