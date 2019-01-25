@@ -51,12 +51,12 @@
 <div id="main" class="container">
 
     <!-- Elements -->
-    <h2 id="elements" style="color: black;" >Why should I visit Udawalawe National Park?</h2>
+    <h2 id="elements" style="color: black;" >What should you know ?</h2>
     <div class="row 200%">
         <div class="6u 12u$(medium)">
 
             <!-- Text stuff -->
-            <p style="color: black">Udawalawe is in a hot, semi-arid environment and the annual average temperature is about 32 degrees Celsius. The chance of witnessing a herd of Sri Lankan elephants is extremely high near rivers and the reservoir of Udawalawe, and this chance increases during the dry season when the elephants gather near bodies of water. The dry season of the region is between May and September.</p>
+            <p style="color: black">Anuradhapura is a major city in Sri Lanka. It is the capital city of North Central Province, Sri Lanka and the capital of Anuradhapura District. Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of an ancient Sri Lankan civilization. It was the third capital of the Kingdom of Rajarata</p>
             <hr />
             <ul>
                 <li><h3 style="color: black">Experience the unique mixture of wildlife at Udawalawe</h3></li>

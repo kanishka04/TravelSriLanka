@@ -66,52 +66,44 @@
             </ul>
             <hr />
             <header>
-                <h2>Heading with a Subtitle</h2>
-                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                <h2>The place where nature truely live !</h2>
             </header>
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            <p>Framed by soaring highlands on its northern boundary, the Uda Walawe National Park is one of the world's best places to see wild elephants. Largely comprised of grasslands and bush forest, it's also one of the best national parks in Sri Lanka for game spotting.</p>
             <header>
-                <h3>Heading with a Subtitle</h3>
-                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                <h3>Beach Walks</h3>
+
             </header>
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            <p>While most of the long coastal stretch that hugs the park is out of bounds for the human kind, the park lets you get off at designated places. It gives you a chance to exercise your legs and take a stroll on the golden sandy beaches. The primary beach spot open to public was the location for one of the bungalows which was wiped out by the Asian Tsunami along with its occupants. Remnants of the devastation and a memorial for the dead will offer you a profound moment of silence and solitude.</p>
             <header>
-                <h4>Heading with a Subtitle</h4>
-                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                <h4>YALA NIGHTS A thrilling date with nature</h4>
+
             </header>
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            <p>A series of wildlife bungalows operated by the park afford nature enthusiasts to spend a night in the park. These bungalows are very basic, promote open space but give you an unforgettable experience as you experience a night in the animal kingdom. You can book a bungalow here. You can also be out on the beaten track before the rest of the traffic gets in.</p>
 
             <!-- Lists -->
             <h3>Lists</h3>
             <div class="row">
                 <div class="6u 12u$(small)">
 
-                    <h4>Unordered</h4>
+                    <h4>Things to do at Yala</h4>
                     <ul>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Sagittis adipiscing lorem eleifend.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
+                        <li>Visit Sithulpawwa</li>
+                        <li>Visit Magul Maha Viharaya</li>
+                        <li>Bird Watching</li>
                     </ul>
 
-                    <h4>Alternate</h4>
-                    <ul class="alt">
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Sagittis adipiscing lorem eleifend.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                    </ul>
+<!--                    <h4>Alternate</h4>-->
+<!--                    <ul class="alt">-->
+<!--                        <li>Dolor pulvinar etiam magna etiam.</li>-->
+<!--                        <li>Sagittis adipiscing lorem eleifend.</li>-->
+<!--                        <li>Felis enim feugiat dolore viverra.</li>-->
+<!--                    </ul>-->
 
                 </div>
                 <div class="6u$ 12u$(small)">
 
-                    <h4>Ordered</h4>
-                    <ol>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Etiam vel felis at lorem sed viverra.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Etiam vel felis at lorem sed viverra.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                    </ol>
+                    <h4>Travel TipLoren</h4>
+                    <p>You might want to get into the general area the previous evening, so that you’ll be nice and relax entering the park. If you are travelling by car, you’ll need to hire a safari jeep at the gate. Your park ticket includes a trekker but remember, there is a shortage of trekkers as more and more visitors flock to Yala. You might want to pre-book your safari jeep, ticket and trekker. You can purchase your ticket on-line here and you can pre-book your jeep with trekker here. Trekkers give of their best when they know that you will tip them generously. Rs.500 would be par for the course.</p>
 
 
                 </div>
@@ -121,17 +113,17 @@
             <!-- correct -->
             <h4>Definition</h4>
             <dl>
-                <dt>Item 1</dt>
+                <dt>Mammals</dt>
                 <dd>
-                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                    <p>Udawalawe is an important habitat for Sri Lankan elephants, which are relatively hard to see in its open habitats. Many elephants are attracted to the park because of the Udawalawe reservoir,with a herd of about 250 believed to be permanently resident.</p>
                 </dd>
-                <dt>Item 2</dt>
+                <dt>Birds</dt>
                 <dd>
-                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                    <p>Udawalawe is also a good birdwatching site.[1] Endemics such as Sri Lanka spurfowl, red-faced malkoha, Sri Lanka grey hornbill, brown-capped babbler, and Sri Lanka junglefowl are among of the breeding resident birds.</p>
                 </dd>
-                <dt>Item 3</dt>
+                <dt>Reptiles and fish</dt>
                 <dd>
-                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                    <p>Oriental garden lizards, painted-lip lizards, mugger crocodiles, Asian water monitors, Bengal monitors and 30 species of snake are found in the park.Garra ceylonensis is an endemic fish species recorded in park</p>
                 </dd>
             </dl>
         </div>
@@ -156,14 +148,16 @@
                 </div>
             </div>
 
-            <h4>Left &amp; Right</h4>
-            <p><span class="image left"><img src="images/udawalawe.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-            <p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
+            <h4>About</h4>
+            <p><span class="image left"><img src="images/udawalawe.jpg" alt="" /></span>Yala National Park is the most gone by and the second biggest national stop in Sri Lanka, flanking the Indian Ocean. The recreation center comprises five squares, two of which are presently open to people in general, and furthermore bordering parks. The squares have singular names, for example, Ruhuna National Park (piece 1) and Kumana National Park or ‘Yala East’ for the abutting territory. It is arranged in the southeast district of the nation, and lies in Southern Province and Uva Province. The recreation center spreads 979 square kilometers (378 sq mi) and is situated around 300 kilometers (190 mi) from Colombo. Yala was assigned as an untamed life haven in 1900, and, alongside Wilpattu was one of the initial two national stops in Sri Lanka, having been assigned in 1938. The recreation center is best known for its assortment of wild creatures. It is essential for the preservation of Sri Lankan elephants, Sri Lankan panthers and sea-going winged creatures.
+
+                There are six national parks and three untamed life asylums in the region of Yala. Among the biggest is Lunugamvehera National Park. The recreation center is arranged in the dry semi-bone-dry climatic locale and rain is gotten essentially amid the upper east rainstorm. Yala has an assortment of biological systems extending from soggy storm woodlands to freshwater and marine wetlands. It is one of the 70 Important Bird Areas (IBAs) in Sri Lanka. Yala harbors 215 feathered creature species including six endemic types of Sri Lanka. The quantity of warm blooded animals that has been recorded from the recreation center is 44, and it has one of the most noteworthy panther densities on the planet.</p>
+            <p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>The region around Yala has facilitated a few old developments. Two imperative traveler locales, Sithulpahuwa and Magul Vihara, are arranged inside the recreation center. The 2004 Indian Ocean tidal wave caused extreme harm on the Yala National Park and 250 individuals kicked the bucket in its region. The quantity of guests has been on the ascent since 2009, after the security circumstance in the recreation center moved forward.</p>
 
             <!-- Box -->
-            <h3>Box</h3>
+            <h3>Elephants</h3>
             <div class="box">
-                <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
+                <p>This park is home to several hundred elephants and other rare plants and wildlife. </p>
             </div>
 
             <!-- Preformatted Code -->
