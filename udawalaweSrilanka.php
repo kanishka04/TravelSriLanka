@@ -1,6 +1,4 @@
-<?php
 
-?>
 
 <!DOCTYPE HTML>
 <!--
@@ -167,30 +165,10 @@
 
 </div>
 <?php
+include_once('database/db.php');
 $comment = $name = $email = $website = "";
 $commentError = $nameError = $emailError = $websiteError = "";
-/*if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["comment"])) {
-        $commentError = "Please add your comment";
-    } else {
-        $comment = test_data($_POST["comment"]);
-    }
-    if (empty($_POST["name"])) {
-        $nameError = "Please enter your name";
-    } else {
-        $name = test_data($_POST["name"]);
-    }
-    if (empty($_POST["email"])) {
-        $emailError = "Please enter your email";
-    } else {
-        $email = test_data($_POST["email"]);
-    }
-    if (empty($_POST["website"])) {
-        $website = "";
-    } else {
-        $website = test_data($_POST["website"]);
-    }
-}*/
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["comment"])) {
         $commentError = "Please add your comment";
@@ -210,7 +188,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $website = test_data($_POST["website"]);
 
         if(isset($_POST['submit'])) {
-            include_once('database/db.php');
+
             $comment = strip_tags($_POST['comment']);
             $name = strip_tags($_POST['name']);
             $email = strip_tags($_POST['email']);
@@ -218,14 +196,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $sql = "INSERT INTO comment_ella_srilanka(comment,name,email,website) VALUES ('$comment','$name','$email','$website');";
             $query = mysqli_query($con, $sql);
 
-            if ($con->query($sql) === TRUE) {
-                echo "New record created successfully";
-            } else {
-                echo "Error: " . $sql . "<br>" . $con->error;
-            }
         }
     }
+
+
 }
+
+
 function test_data($data)
 {
     $data = trim($data);
@@ -236,31 +213,30 @@ function test_data($data)
 ?>
 
 <?php
-include_once('database/db.php');
-$sql = "SELECT * FROM comment_ella_srilanka where id = '87'";
-$query = mysqli_query($con, $sql);
-if($query) {
+    include_once('database/db.php');
+    $sql = "SELECT * FROM comment_ella_srilanka where id='88'";
+    $query = mysqli_query($con, $sql);
 
-    $row = mysqli_fetch_row($query);
-    $dbcomment = $row[1];
-    $dbname = $row[2];
-    $dbemail = $row[3];
-    $dbwebsite = $row[4];
-    $dbdatetime = $row[5];
-//    echo $dbcomment;
-//    echo $dbname ;
-//    echo $dbemail;
-//    echo $dbdatetime;
-}
-else {
-    echo "<b><i>Incorrect credentials</i><b>";
-}
+    if($query) {
+        $row = mysqli_fetch_row($query);
+        $dbcomment = $row[1];
+        $dbname = $row[2];
+        $dbemail = $row[3];
+        $dbwebsite = $row[4];
+        $dbdatetime = $row[5];
+    }
+    else {
+        echo "<b><i>Incorrect credentials</i><b>";
+    }
 ?>
+
+
 
 <section id="four" class="wrapper style2">
     <div class="inner">
         <div class="box">
             <div class="content">
+
 
                 <div class ="container-fluid">
                     <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>
@@ -277,6 +253,8 @@ else {
                     </div>
                     <input style=" margin-top:-4px; margin-bottom: 15px; margin-right:40px; float:right;" type ="button" id = "button2" value="Reply"/>
                 </div>
+
+
                 <h1 style="alignment: center; margin-top: 100px;"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
                 <h1>Comments</h1>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
@@ -298,6 +276,8 @@ else {
         </div>
     </div>
 </section>
+
+
 <!-- Footer -->
 <footer id="footer">
     <div class="inner">
@@ -329,6 +309,8 @@ else {
         </div>
     </div>
 </footer>
+
+
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
