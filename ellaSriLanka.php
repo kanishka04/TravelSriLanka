@@ -1,6 +1,4 @@
-<?php
 
-?>
 
 <!DOCTYPE HTML>
 
@@ -10,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script type="text/javascript" src ="js/index.js"></script>
 </head>
 <body class="subpage">
 
@@ -23,11 +22,9 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index.php">Home</a></li>
-        <li><a href="ellaSriLanka.php">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="ellaSriLanka.php">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
+        <li><a href="#two">Description</a></li>
+        <li><a href="#three">Top Sights in Ella</a></li>
+        <li><a href="#four">Comments</a></li>
     </ul>
 </nav>
 
@@ -210,24 +207,41 @@
     <div class="inner">
         <div class="box">
             <div class="content">
+                <?php
+                $sql = "SELECT comment,name,email,website from comment_ella_srilanka";
 
+                $result = $con->query($sql);
 
-                <div class ="container-fluid">
-                    <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>
-                    <div id ="id123" style="display: inline">
-                        <p style="float: left; color: blue; margin-left:20px;"><?php echo $dbname;?></p>
-                        <P style ="color:blue; float: right; margin-right: 80px;"><?php echo $dbdatetime;?></P>
-                    </div>
-                    <br/>
-                    <br/>
-                    <div >
-                        <p id ="idasd" style="color: #0b0b0b; margin-right: 5px;">
-                            <?php echo $dbcomment;?>
-                        </p>
-                    </div>
-                    <input style=" margin-top:-4px; margin-bottom: 15px; margin-right:40px; float:right;" type ="button" id = "button2" value="Reply"/>
-                </div>
-
+                if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                echo "id: " . $row["comment"]. " - Name: " . $row["name"]. " " . $row["email"]. " " .$row["website"]. "<br>";
+                }
+                }
+                else {
+                echo "0 results";
+                }
+                $con    ->close();
+                ?>
+                <?php
+                '<div class ="container-fluid">
+                    <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>'
+                        while($row = $result->fetch_assoc()) {
+                            '<div id ="id123" style="display: inline">
+                                <p style="float: left; color: blue; margin-left:20px;">'.$row["dbname"].'</p>
+                                <P style ="color:blue; float: right; margin-right: 80px;">'.$row["dbdatetime"].'</P>
+                            </div>
+                            <br/>
+                            <br/>
+                            <div >
+                                <p id ="idasd" style="color: #0b0b0b; margin-right: 5px;">'
+                                    .$row[dbcomment].
+                                '</p>
+                            </div>
+                            <input style=" margin-top:-4px; margin-bottom: 15px; margin-right:40px; float:right;" type ="button" id = "button2" value="Reply"/>
+                            </div>'
+                        }
+                    ?>
 
                 <h1 style="alignment: center; margin-top: 100px;"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
                 <h1>Comments</h1>

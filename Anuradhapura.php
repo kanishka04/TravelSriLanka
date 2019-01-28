@@ -15,6 +15,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script type="text/javascript" src ="js/index.js"></script>
 </head>
 <body class="subpage">
 
@@ -36,10 +37,10 @@
 <!-- Banner -->
 <section class="banner half">
     <article>
-        <img src="images/deer1.jpg"  alt="" />
+        <img src="images/anumain.jpg"  alt="" />
         <div class="inner">
             <header>
-                <p></p>
+                <p>The ancient city, considered sacred to the Buddhist world</p>
                 <h3 style="font-size: 30px">Anuradhapura</h3>
             </header>
         </div>
@@ -59,60 +60,45 @@
             <p style="color: black">Anuradhapura is a major city in Sri Lanka. It is the capital city of North Central Province, Sri Lanka and the capital of Anuradhapura District. Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of an ancient Sri Lankan civilization. It was the third capital of the Kingdom of Rajarata</p>
             <hr />
             <ul>
-                <li><h3 style="color: black">Experience the unique mixture of wildlife at Udawalawe</h3></li>
-                <li><h3 style="color: black">Best for bird watching enthusiasts</h3></li>
-                <li><h3 style="color: black">Spot the moments and trumpets of these wild Giants</h3></li>
-                <li><h3 style="color: black">Opportunity to capture various species of exotic plant life</h3></li>
+                <li><h3 style="color: black">Sigiriya Rock Fortress and Cave Temples Day Trip</h3></li>
+                <li><h3 style="color: black">Aftern</h3></li>
+                <li><h3 style="color: black">Mahavihara with the Ruwanweliseya Dagoba</h3></li>
+                <li><h3 style="color: black">Visit the rock temple Isurumuniya</h3></li>
+                <li><h3 style="color: black">The sacred tree – Jaya Sri Maha Bodhi</h3></li>
                 <li><h3 style="color: black">Perfect trip for nature lovers</h3></li>
             </ul>
             <hr />
             <header>
-                <h2>Heading with a Subtitle</h2>
-                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                <h2>Things to do in Anuradhapura</h2>
+
             </header>
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                <p>There are a number of exciting things to do in Anuradhapura. From historical sites to cultural attractions, explore the exhaustive list of all other local attractions in Anuradhapura. Discover new places to see and unique things to do nearby Anuradhapura. Don't miss out on these amazing sights at Anuradhapura</p>
             <header>
-                <h3>Heading with a Subtitle</h3>
-                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                <h2> Abhayagiri Museum </h2>
+
             </header>
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            <p>A tour of the Abhayagiri Museum will let you know about the ancient city of Anuradhapura. Although small, the museum effectively gives you thorough knowledge through a variety of artifacts.</p>
             <header>
-                <h4>Heading with a Subtitle</h4>
-                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                <h2>Kuttam Pokuna</h2>
+
             </header>
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+            <p>Kuttam Pokuna was one of the best bathing tanks in Sri Lanka. It is actually a twin bathing tank and is considered a significant achievement in the field of hydrological engineering by the Sinhalese. The Kuttam Pokuna is one of the most popular attractions in Anuradhapura.</p>
 
             <!-- Lists -->
-            <h3>Lists</h3>
+            <h3>Other Things</h3>
             <div class="row">
                 <div class="6u 12u$(small)">
 
-                    <h4>Unordered</h4>
                     <ul>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Sagittis adipiscing lorem eleifend.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
+                        <li>Visit Jetavanaramaya</li>
+                        <li>Visit Isurumuniya Vihara </li>
+                        <li>Visit Abhayagiri Dagoba .</li>
                     </ul>
 
-                    <h4>Alternate</h4>
-                    <ul class="alt">
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Sagittis adipiscing lorem eleifend.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                    </ul>
+
 
                 </div>
                 <div class="6u$ 12u$(small)">
-
-                    <h4>Ordered</h4>
-                    <ol>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Etiam vel felis at lorem sed viverra.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                        <li>Dolor pulvinar etiam magna etiam.</li>
-                        <li>Etiam vel felis at lorem sed viverra.</li>
-                        <li>Felis enim feugiat dolore viverra.</li>
-                    </ol>
 
 
                 </div>
@@ -120,19 +106,27 @@
 
 
             <!-- correct -->
-            <h4>Definition</h4>
+            <h4></h4>
             <dl>
-                <dt>Item 1</dt>
+                <dt>Ruwanweli Maha Seya</dt>
                 <dd>
-                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                    <p>Ruwanweli maha Seya was built by the great king Dutugamunu who reigned from 137BC to 119BC from Anuradhapura. Next to Sri Maha Bodhi, Ruwanweli Seya temple is the most venerated Buddhist site in Anuradhapura.
+
+                        After the defeat of Elara, the South Indian invader and bringing the whole country under one rule by the great warrior king Dutugemunu, building of Ruwanweli Seya has been given the most prominence in most ancient texts in Sri Lanka.
+
+                        The original stupa has been about 180 feet (55 metres) in height and had been expanded and renovated by many kings thereafter. The stupa is 350 feet (107 metres) in height and 300 feet (92 metres) in diameter toda</p>
                 </dd>
-                <dt>Item 2</dt>
+                <dt>Sri Maha Bodhiya</dt>
                 <dd>
-                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                    <p>The Sacred Jaya Siri Maha Bodhi in Anuradhapura is reckoned as the oldest surviving historical tree in the world.
+
+                        Jaya Siri Maha Bodhi was brought to Sri Lanka by the Theri Sangamitta, daughter of Emperor Asoka and was planted in the Mahameghavana Park in Anuradhapura in 249 BC by King Devanampiyatissa.
+
+                        Jaya Siri Maha Bodhi is said to be the southern branch of the Jaya Siri Maha Bodhi at Buddha Gaya in India under which Lord Buddha attained bodhi or 'Awakening'. (via Liz Dula)</p>
                 </dd>
-                <dt>Item 3</dt>
+                <dt>Thuparamaya of Ancient Anuradhapura</dt>
                 <dd>
-                    <p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                    <p>This is the first stupa to be built in the country after the introduction of Buddhism to Sri Lanka. Built in the time of king Devamnampiyatissa (250BC – 210BC) this was a stupa as well as an Aramic complex (monastery). Today ruins of this complex covers nearly 3 ½ acres. The stupa was built on the instructions of Mahinda Thero who brought Buddhism to the island to enshrine the right collar-bone of Lord Buddha.</p>
                 </dd>
             </dl>
         </div>
@@ -140,31 +134,37 @@
 
             <!-- Image -->
             <h3 style="color: #002a80">Beautiful Places </h3>
-            <span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+            <span class="image fit"><img src="images/sigiriya2.jpg" alt="" /></span>
             <div class="box alt">
                 <div class="row 50% uniform">
-                    <div class="4u"><span class="image fit"><img src="images/elephants1.jpg" alt="" /></span></div>
-                    <div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                    <div class="4u"><span class="image fit"><img src="images/anu7.jpg" alt="" /></span></div>
+                    <div class="4u"><span class="image fit"><img src="images/anu3.jpg" alt="" /></span></div>
+                    <div class="4u$"><span class="image fit"><img src="images/sigiriya2.jpg" alt="" /></span></div>
                     <!-- Break -->
-                    <div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                    <div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                    <!-- Break -->
-                    <div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                    <div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                    <div class="4u$"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+                    <div class="4u"><span class="image fit"><img src="images/Anuradhapura2.jpg" alt="" /></span></div>
+                    <div class="4u"><span class="image fit"><img src="images/anu1.jpg" alt="" /></span></div>
+                    <div class="4u$"><span class="image fit"><img src="images/anu9.jpg" alt="" /></span></div>
                 </div>
             </div>
 
-            <h4>Left &amp; Right</h4>
-            <p><span class="image left"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
-            <p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor sit amet dolor consequat.</p>
+            <h4>Sigiriya</h4>
+            <p><span class="image left"><img src="images/sigiriya1.jpg" alt="" /></span>Referred by locals as the Eighth Wonder of the World this ancient palace and fortress complex has significant archaeological importance and attracts thousands of tourists every year. It is probably the most visited tourist destination of Sri Lanka.The palace is located in the heart of the island between the towns of Dambulla and Habarane on a massive rocky plateau 370 meters above the sea level.
+
+                Sigiriya rock plateau, formed from magma of an extinct volcano, is 200 meters higher than the surrounding jungles.
+
+                Its view astonishes the visitors with the unique harmony between the nature and human imagination.
+
+                The fortress complex includes remnants of a ruined palace, surrounded by an extensive network of fortifications, vast gardens, ponds, canals, alleys and fountains.
+
+                The surrounding territories of Sigiriya were inhibited for several thousand years.</p>
+            <p><span class="image right"><img src="images/sigiriya3.jpg" alt="" /></span>The western wall of Sigiriya was almost entirely covered by frescoes, created during the reign of Kasyapa. Eighteen frescoes have survived to this day.
+
+                The frescoes are depicting nude females and are considered to be either the portraits of Kasyapa’s wives and concubines or priestess performing religious rituals.</p>
 
             <!-- Box -->
-            <h3>Box</h3>
+            <h3>Architecture</h3>
             <div class="box">
-                <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam.</p>
+                <p>The buildings and gardens of Sigiriya show that the creators of this amazing architectural monument used unique and creative technical skills and technologies.</p>
             </div>
 
             <!-- Preformatted Code -->
@@ -287,13 +287,13 @@ else {
                 <h1 style="alignment: center; margin-top: 100px;"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
                 <h1>Comments</h1>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-                    <textarea rows="4" cols="50" name ="comment"></textarea>
+                    <textarea rows="4" cols="50" name ="comment" required></textarea>
                     <span class="error" style="color: red">* <?php echo $commentError;?></span>
                     <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
-                    <input type="text" id="text1" name ="name">
+                    <input type="text" id="text1" name ="name" required>
                     <span class="error" style="color: red">* <?php echo $nameError;?></span>
                     <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
-                    <input type="text" id="email" name ="email">
+                    <input type="text" id="email" name ="email" required>
                     <span class="error" style="color: red">* <?php echo $emailError;?></span>
                     <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                     <input type="text" id="website" name ="website">

@@ -40,11 +40,9 @@ if(isset($_POST['submit'])){
         $dbUserName = $row[0];
         $dbPassword = $row[1];
     }
-
-
     if($username == $dbUserName && $password == $dbPassword) {
         $_SESSION['username'] = $username;
-        header('Location: ellaSriLanka.php');
+        header('Location: admin.php');
         //echo "correct";
 
     }
