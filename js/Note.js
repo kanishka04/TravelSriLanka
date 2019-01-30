@@ -24,7 +24,8 @@ var Note = React.createClass({
     },
     renderDisplay: function() {
         return (
-            <div className="note"
+            <div
+                    className="note"
                 style={this.style}>
                 <p>{this.props.children}</p>
                 <span>
