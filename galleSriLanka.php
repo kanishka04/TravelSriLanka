@@ -25,10 +25,10 @@
 <nav id="menu">
     <ul class="links">
         <li><a href="index.php">Home</a></li>
-        <li><a href="ellaSriLanka.html">Generic</a></li>
+        <li><a href="ellaSriLanka.php">Generic</a></li>
         <li><a href="elements.html">Elements</a></li>
         <li><a href="index.php">Home</a></li>
-        <li><a href="ellaSriLanka.html">Generic</a></li>
+        <li><a href="ellaSriLanka.php">Generic</a></li>
         <li><a href="elements.html">Elements</a></li>
     </ul>
 </nav>
@@ -148,128 +148,47 @@
     </div>
 </section>
 
-<?php
-$comment = $name = $email = $website = "";
-$commentError = $nameError = $emailError = $websiteError = "";
-/*if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["comment"])) {
-        $commentError = "Please add your comment";
-    } else {
-        $comment = test_data($_POST["comment"]);
-    }
-    if (empty($_POST["name"])) {
-        $nameError = "Please enter your name";
-    } else {
-        $name = test_data($_POST["name"]);
-    }
-    if (empty($_POST["email"])) {
-        $emailError = "Please enter your email";
-    } else {
-        $email = test_data($_POST["email"]);
-    }
-    if (empty($_POST["website"])) {
-        $website = "";
-    } else {
-        $website = test_data($_POST["website"]);
-    }
-}*/
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty($_POST["comment"])) {
-        $commentError = "Please add your comment";
-
-    } else if(empty($_POST["name"])){
-        $nameError = "Please enter your name";
-
-    }else if(empty($_POST["email"])) {
-        $emailError = "Please enter your email";
-    } else if(empty($_POST["website"])) {
-        $website = "";
-    }
-    else{
-        $comment = test_data($_POST["comment"]);
-        $name = test_data($_POST["name"]);
-        $email = test_data($_POST["email"]);
-        $website = test_data($_POST["website"]);
-
-        if(isset($_POST['submit'])) {
-            include_once('database/db.php');
-            $comment = strip_tags($_POST['comment']);
-            $name = strip_tags($_POST['name']);
-            $email = strip_tags($_POST['email']);
-            $website = strip_tags($_POST['website']);
-            $sql = "INSERT INTO comment_ella_srilanka(comment,name,email,website) VALUES ('$comment','$name','$email','$website');";
-            $query = mysqli_query($con, $sql);
-
-            if ($con->query($sql) === TRUE) {
-                echo "New record created successfully";
-            } else {
-                echo "Error: " . $sql . "<br>" . $con->error;
-            }
-        }
-    }
-}
-function test_data($data)
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
-?>
-
-<?php
-include_once('database/db.php');
-$sql = "SELECT * FROM comment_ella_srilanka where id = '87'";
-$query = mysqli_query($con, $sql);
-if($query) {
-
-    $row = mysqli_fetch_row($query);
-    $dbcomment = $row[1];
-    $dbname = $row[2];
-    $dbemail = $row[3];
-    $dbwebsite = $row[4];
-    $dbdatetime = $row[5];
-//    echo $dbcomment;
-//    echo $dbname ;
-//    echo $dbemail;
-//    echo $dbdatetime;
-}
-else {
-    echo "<b><i>Incorrect credentials</i><b>";
-}
-?>
-
 <section id="four" class="wrapper style2">
     <div class="inner">
         <div class="box">
             <div class="content">
+                <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>
+                <?php
+                include_once('controller/db.php');
 
-                <div class ="container-fluid">
-                    <h1 style ="color: #002a80; font-family:Trattatello, fantasy; font-size: 30px">Blog Comments</h1>
-                    <div id ="id123" style="display: inline">
-                        <p style="float: left; color: blue; margin-left:20px;"><?php echo $dbname;?></p>
-                        <P style ="color:blue; float: right; margin-right: 80px;"><?php echo $dbdatetime;?></P>
+                $t="select * from galle_srilanka";
+                $y=$con->query($t);
+                foreach ($y as $q)
+                {?>
+                    <div class ="container-fluid">
+
+                        <div id ="id123" style="display: inline">
+                            <p style="float: left; color: blue; margin-left:20px;"><?php echo $q['name'];?></p>
+                            <P style ="color:blue; float: right; margin-right: 80px;"><?php echo $q['date_time'];?></P>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div >
+                            <p id ="idasd" style="color: #0b0b0b; margin-right: 5px;">
+                                <?php echo $q['comment'];?>
+                            </p>
+                        </div>
+
+                        <hr/>
+                        <!--                    <input style=" margin-top:-4px; margin-bottom: 15px; margin-right:40px; float:right;" type ="button" id = "button2" value="Reply"/>-->
                     </div>
-                    <br/>
-                    <br/>
-                    <div >
-                        <p id ="idasd" style="color: #0b0b0b; margin-right: 5px;">
-                            <?php echo $dbcomment;?>
-                        </p>
-                    </div>
-                    <input style=" margin-top:-4px; margin-bottom: 15px; margin-right:40px; float:right;" type ="button" id = "button2" value="Reply"/>
-                </div>
-                <h1 style="alignment: center; margin-top: 100px;"><b>Please share your experience in Ella -Sri Lanka with others</b></h1>
+                <?php }?>
+                <h1 style="alignment: center; margin-top: 100px;"><b>Please share your experience in Galle -Sri Lanka with others</b></h1>
                 <h1>Comments</h1>
-                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+                <form action="controller/Gallesrilanka.php" method="post">
                     <textarea rows="4" cols="50" name ="comment"></textarea>
-                    <span class="error" style="color: red">* <?php echo $commentError;?></span>
+                    <span class="error" style="color: red"></span>
                     <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
                     <input type="text" id="text1" name ="name">
-                    <span class="error" style="color: red">* <?php echo $nameError;?></span>
+                    <span class="error" style="color: red"></span>
                     <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
                     <input type="text" id="email" name ="email">
-                    <span class="error" style="color: red">* <?php echo $emailError;?></span>
+                    <span class="error" style="color: red"></span>
                     <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                     <input type="text" id="website" name ="website">
                     <input style="background-color: #002a80; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="SUBMIT COMMENT"/>
