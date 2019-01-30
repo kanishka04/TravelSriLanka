@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <script type="text/javascript" src ="js/index.js"></script>
-</head>
+</head>git 
 <body class="subpage">
 
 <!-- Header -->

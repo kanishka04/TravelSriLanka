@@ -1,14 +1,4 @@
-<?php
-
-?>
-
-
 <!DOCTYPE HTML>
-<!--
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 <head>
     <title>Admin Page</title>
@@ -62,7 +52,7 @@
             <!-- Text stuff -->
             <p style="color: black">Enter the ID to View Comment</p>
             <div class="id23" style="display: inline" >
-                <form action="controller/adminControl.php" method = "get">
+                <form action="controller/Admincontrol.php" method = "post">
                     <input type="text" name ="ella_id">
                     <input style="background-color: green; color:white;width:100%; margin-top: 20px;  alignment: center; float: right; height: 40px; font-size: 10px;" type ="submit" name="submit" value="View comment"/>
                 </form>
@@ -89,7 +79,7 @@
             <hr />
 
             <header>
-                <h2>Heading with a Subtitle</h2>
+                <h2>Welcome Admin</h2>
                 <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
             </header>
             <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
@@ -111,20 +101,20 @@
                         <input type="text" id="email" name ="email">
                         <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                         <input type="text" id="website" name ="website">
-                        <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px;" type ="submit" name="submit" value="Update comment"/>
+                        <div style="display: inline">
+                            <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px; float: left" type ="submit" name="submit" value="Update comment"/>
+                            <input style="background-color: red; alignment: center; margin-top: 20px; float: right" type ="submit" name="submit" value="DELETE COMMENT"/>
+                        </div>
                     </form>
                 </div>
                 <hr />
                 <br/>
-                <p style="color: black">Enter the ID of the comment you want to delete</p>
-                <input type="text" id="website" name ="website" style="height: 25px; width: 150px">
-                <input style="background-color: red; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="DELETE COMMENT"/>
                 <hr />
                 <hr />
             </div>
 
             <!-- correct -->
-            <h2 id="elements" style="color: black; margin-right: 300px;" >Anuradhapura Sri Lanka</h2>
+            <h2 id="elements" style="color: black; margin-right: 300px;"> Anuradhapura</h2>
                 <p style="color: black">Enter the ID to View Comment</p>
                 <div class="id23" style="display: inline" >
                     <input type="text" id="website" name ="website" style="height: 25px; width: 150px; float: left; margin-top: 15px;">
@@ -140,14 +130,16 @@
                         <input type="text" id="email" name ="email">
                         <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                         <input type="text" id="website" name ="website">
-                        <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px;" type ="submit" name="submit" value="Update comment"/>
+                        <div style="display: inline">
+                            <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px; float: left" type ="submit" name="submit" value="Update comment"/>
+                            <input style="background-color: red; alignment: center; margin-top: 20px; float: right" type ="submit" name="submit" value="DELETE COMMENT"/>
+                        </div>
                     </form>
                 </div>
-                <hr />
                 <br/>
-                <p style="color: black">Enter the ID of the comment you want to delete</p>
-                <input type="text" id="website" name ="website" style="height: 25px; width: 150px">
-                <input style="background-color: red; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="DELETE COMMENT"/>
+<!--                <p style="color: black">Enter the ID of the comment you want to delete</p>-->
+<!--                <input type="text" id="website" name ="website" style="height: 25px; width: 150px">-->
+<!--                <input style="background-color: red; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="DELETE COMMENT"/>-->
 
 
                 <hr />
@@ -175,6 +167,7 @@
             </div>
             <div class="element" style="margin-top: 100px;">
                 <!-- Text stuff -->
+
                 <h2 id="elements" style="color: black; " >Udawalawe Sri Lanka</h2>
                 <p style="color: black">Enter the ID to View Comment</p>
                 <div class="id23" style="display: inline" >
@@ -191,14 +184,13 @@
                         <input type="text" id="email" name ="email">
                         <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                         <input type="text" id="website" name ="website">
-                        <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px;" type ="submit" name="submit" value="Update comment"/>
+                        <div style="display: inline">
+                            <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px; float: left" type ="submit" name="submit" value="Update comment"/>
+                            <input style="background-color: red; alignment: center; margin-top: 20px; float: right" type ="submit" name="submit" value="DELETE COMMENT"/>
+                        </div>
                     </form>
                 </div>
-                <hr />
                 <br/>
-                <p style="color: black">Enter the ID of the comment you want to delete</p>
-                <input type="text" id="website" name ="website" style="height: 25px; width: 150px">
-                <input style="background-color: red; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="DELETE COMMENT"/>
                 <hr />
                 <hr />
             </div>
@@ -214,7 +206,8 @@
     </div>
 
 </div>
-<!-- Footer -->
+
+
 <!-- Footer -->
 <footer id="footer">
     <div class="inner">

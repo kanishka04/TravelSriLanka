@@ -254,6 +254,17 @@
                     <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
                     <input type="text" id="email" name ="email">
                     <span class="error" style="color: red">* <?php echo $emailError;?></span>
+
+                <form action="controller/Ellasrilanka.php" method="post">
+                    <textarea rows="4" cols="50" name ="comment" id="comment" required="Please enter comment"></textarea>
+                    <span class="error" style="color: red"></span>
+                    <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
+                    <input type="text" id="name" name ="name" required="Please enter name" >
+                    <span class="error" style="color: red"></span>
+                    <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
+                    <input type="email" id="email" name ="email" required="Please enter email">
+                    <span class="error" style="color: red"></span>
+
                     <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                     <input type="text" id="website" name ="website">
                     <input style="background-color: #002a80; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="SUBMIT COMMENT"/>
