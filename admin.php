@@ -30,7 +30,7 @@
 <!-- Banner -->
 <section class="banner half">
     <article>
-        <img src="images/deer1.jpg"  alt="" />
+        <img src="images/galle.jpg"  alt="" />
         <div class="inner">
             <header>
                 <p></p>
