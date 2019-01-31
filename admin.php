@@ -59,16 +59,26 @@
     <div class="row 200%">
         <div class="6u 12u$(medium)">
 
+            <?php
+            include_once('controller/AdminControl.php');
+            if (isset($_POST['dbcomment']))
+            {
+                $t1 =  $_POST['dbcomment'];
+            }
+            ?>
+
             <!-- Text stuff -->
             <p style="color: black">Enter the ID to View Comment</p>
             <div class="id23" style="display: inline" >
-                <form action="controller/adminControl.php" method = "get">
+                <form action="controller/AdminControl.php" method = "post">
                     <input type="text" name ="ella_id">
                     <input style="background-color: green; color:white;width:100%; margin-top: 20px;  alignment: center; float: right; height: 40px; font-size: 10px;" type ="submit" name="submit" value="View comment"/>
                 </form>
             </div>
             <div id="id12324" style="margin-top: 100px;">
-            <form action=""method="post">
+            <form action="controller/AdminControl.php"method="post">
+                <p>ID number</p>
+                <input type="text" name ="ella_id" value = "<?php echo $t1 ?>">
                 <p style="margin-top: 10px; margin-bottom:0px;">Comment</p>
                 <textarea rows="4" cols="50" name ="comment"></textarea>
                 <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
@@ -126,34 +136,35 @@
             <!-- correct -->
             <h2 id="elements" style="color: black; margin-right: 300px;" >Anuradhapura Sri Lanka</h2>
                 <p style="color: black">Enter the ID to View Comment</p>
-                <div class="id23" style="display: inline" >
-                    <input type="text" id="website" name ="website" style="height: 25px; width: 150px; float: left; margin-top: 15px;">
-                    <input style="background-color: green; color:white;width:100px  alignment: center; margin-top: 5px; float: right; height: 40px; font-size: 10px; margin-left: -5px;" type ="submit" name="submit" value="View comment"/>
-                </div>
-                <div id="id12324" style="margin-top: 100px;">
-                    <form action=""method="post">
-                        <p style="margin-top: 10px; margin-bottom:0px;">Comment</p>
-                        <textarea rows="4" cols="50" name ="comment"></textarea>
-                        <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
-                        <input type="text" id="text1" name ="name">
-                        <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
-                        <input type="text" id="email" name ="email">
-                        <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
-                        <input type="text" id="website" name ="website">
-                        <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px;" type ="submit" name="submit" value="Update comment"/>
+                        <div class="id23" style="display: inline" >
+                            <input type="text" id="website" name ="website" style="height: 25px; width: 150px; float: left; margin-top: 15px;">
+                            <input style="background-color: green; color:white;width:100px  alignment: center; margin-top: 5px; float: right; height: 40px; font-size: 10px; margin-left: -5px;" type ="submit" name="submit" value="View comment"/>
+                        </div>
+                        <div id="id12324" style="margin-top: 100px;">
+                            <form action=""method="post">
+                                <p>ID number</p>
+                                <input type="text" name ="ella_id">
+                                <p style="margin-top: 10px; margin-bottom:0px;">Comment</p>
+                                <textarea rows="4" cols="50" name ="comment"></textarea>
+                                <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
+                                <input type="text" id="text1" name ="name">
+                                <h1 style=" padding-top: 10px; padding-bottom: 2px; " name ="email">Email</h1>
+                                <input type="text" id="email" name ="email">
+                                <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
+                                <input type="text" id="website" name ="website">
+                                <div style="display: inline">
+                                    <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px; float: left" type ="submit" name="submit" value="Update comment"/>
+                                    <input style="background-color: red; alignment: center; margin-top: 20px; float: right" type ="submit" name="submit" value="DELETE COMMENT"/>
+                                </div>
                     </form>
                 </div>
-                <hr />
                 <br/>
-                <p style="color: black">Enter the ID of the comment you want to delete</p>
-                <input type="text" id="website" name ="website" style="height: 25px; width: 150px">
-                <input style="background-color: red; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="DELETE COMMENT"/>
-
-
                 <hr />
                 <hr />
         </div>
         <div class="6u$ 12u$(medium)">
+
+
 
             <!-- Image -->
             <h3 style="color: #002a80">Beautiful Places </h3>
@@ -183,6 +194,8 @@
                 </div>
                 <div id="id12324" style="margin-top: 100px;">
                     <form action=""method="post">
+                        <p>ID number</p>
+                        <input type="text" name ="ella_id">
                         <p style="margin-top: 10px; margin-bottom:0px;">Comment</p>
                         <textarea rows="4" cols="50" name ="comment"></textarea>
                         <h1 style="padding-top: 10px; padding-bottom: 2px;">Name</h1>
@@ -191,14 +204,13 @@
                         <input type="text" id="email" name ="email">
                         <h1 style="padding-top: 10px; padding-bottom: 2px;">WebSite</h1>
                         <input type="text" id="website" name ="website">
-                        <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px;" type ="submit" name="submit" value="Update comment"/>
+                        <div style="display: inline">
+                            <input style="background-color: green; color:white;width: 150px alignment: center; margin-top: 20px; float: left" type ="submit" name="submit" value="Update comment"/>
+                            <input style="background-color: red; alignment: center; margin-top: 20px; float: right" type ="submit" name="submit" value="DELETE COMMENT"/>
+                        </div>
                     </form>
                 </div>
-                <hr />
                 <br/>
-                <p style="color: black">Enter the ID of the comment you want to delete</p>
-                <input type="text" id="website" name ="website" style="height: 25px; width: 150px">
-                <input style="background-color: red; alignment: center; margin-top: 20px;" type ="submit" name="submit" value="DELETE COMMENT"/>
                 <hr />
                 <hr />
             </div>
